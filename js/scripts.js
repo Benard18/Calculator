@@ -1,13 +1,5 @@
-var add = function(number1, number2) {
-        return number1 + number2;
-      };
 
-
-      var number1 = parseInt(prompt("Enter a number:"));
-
-      var number2 = parseInt(prompt("Enter another number:"));
-
-      alert(add(number1, number2));
-
-
-    
+      var num1 = parseFloat(prompt("Enter your number:"));
+      var num2 = parseFloat(prompt("Enter your other number:"));
+      var result = (num1 - num2);
+      alert(result);
